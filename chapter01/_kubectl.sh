@@ -13,8 +13,10 @@ kubectl explain pods.spec.containers
 # 쿠버네티스 클러스터에서 속한 노드 목록 조회
 kubectl get nodes
 
-# 쿠버네티스 오브젝트 생성/변경
-kubectl apply -f 01_06_deployment.yaml
+# 쿠버테니스 오브젝트 생성/변경
+# kubectl apply -f <object-file-name>
+kubectl apply -f deployment.yaml
+
 
 # 실행 중인 Pod(컨테이너) 목록 조회
 kubectl get pods
